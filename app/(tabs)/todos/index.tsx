@@ -58,7 +58,7 @@ const TodoPage = () => {
         <View style={styles.container}>
             {isLoading && <ActivityIndicator />}
             {!isLoading && (
-                <View style={styles.innerContainer}>
+                <View style={styles.innerContainer} className={'onichan'}>
                     <Text style={styles.title}>Todos page</Text>
                     <FlatList
                         data={todos}

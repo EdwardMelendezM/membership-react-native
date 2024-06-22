@@ -13,6 +13,7 @@ const HomePage = () => {
                 <Text>Go to user 2</Text>
             </Pressable>
             <Link href={'/todos'}>Todo page</Link>
+            <Link href={'/memberships'}>Memberships</Link>
         </View>
     );
 }
