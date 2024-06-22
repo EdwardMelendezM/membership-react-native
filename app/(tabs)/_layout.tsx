@@ -14,6 +14,10 @@ const TabsLayout = () => {
             headerTitle: "Todos",
             title: "Todos"
         }}/>
+        <Tabs.Screen name='memberships/index' options={{
+            headerTitle: "Memberships Page",
+            title: "Memberships Page"
+        }}/>
     </Tabs>
 }
 
